@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- Change the text of the title -->
+<h2>Changing Text</h2>
+
+<p id="text">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("text").innerHTML = "Hey! This Text Changed!"'>Change Text</button>
+<button type="button" onclick='document.getElementById("text").innerHTML = "JavaScript can change HTML content."'>Reset</button>
+
+
+
+
+<hr>
+<!-- Change the source of an image -->
+<h2>Changing Images</h2>
+
+<p>Who is the better quarterback?</p>
+<button onclick="document.getElementById('myImage').src='brady.jpg'">Brady</button>
+<button onclick="document.getElementById('myImage').src='foles.jpg'">Foles</button>
+<br><br>
+<img id="myImage" src="brady.jpg" style="width:200px">
+
+
+
+
+<hr>
+<!-- Change font size -->
+<h2>Changing the style of an HTML element</h2>
+
+<p id="size">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick="document.getElementById('size').style.fontSize='35px'">Large Text</button>
+<button type="button" onclick="document.getElementById('size').style.fontSize='16px'">Small Text</button>
+
+
+
+
+<hr>
+<!-- Hide content -->
+<h2>Hiding and Showing HTML elements</h2>
+<p id="content">JavaScript can hide HTML elements.</p>
+
+<button type="button" onclick="document.getElementById('content').style.display='none'">Hide</button>
+<button type="button" onclick="document.getElementById('content').style.display='block'">Show</button>
+
+
+
+
+<hr>
+<!-- Alert -->
+<h2>Sending Alerts</h2>
+
+<button type="button" onclick="window.alert('Success!')">Alert</button>
+
+</body>
+</html>

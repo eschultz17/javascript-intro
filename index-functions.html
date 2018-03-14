@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- Change the text of the title -->
+<h2>Changing Text</h2>
+
+<p id="text">JavaScript can change HTML content.</p>
+
+<input id="input"></input>
+
+<button type="button" onclick='changeText()'>Change Text</button>
+<button type="button" onclick='resetText()'>Reset</button>
+
+
+
+<hr>
+<!-- Change the source of an image -->
+<h2>Changing Images</h2>
+
+<input id="image-location" type="url"></input>
+
+<button onclick="changeImage()">Change Image</button>
+<br><br>
+<img id="myImage" src="foles.jpg" style="width:200px">
+
+
+
+<hr>
+<!-- Change css styles -->
+<h2>Changing the style of an HTML element</h2>
+
+<p id="example">JavaScript can change the style of an HTML element.</p>
+
+<input id="size-input" type="integer"></input>
+<button type="button" onclick="changeSize()">Change Size</button>
+<br><br>
+<label>Change Color: </label>
+<input id="color-input" type="color" onchange="changeColor()"></input>
+
+
+
+<hr>
+<!-- Hide content -->
+<h2>Hiding and Showing HTML elements</h2>
+<p id="content">JavaScript can hide HTML elements.</p>
+
+<button type="button" onclick="hide()">Hide</button>
+<button type="button" onclick="show()">Show</button>
+
+
+
+<hr>
+<!-- Alert -->
+<h2>Sending Alerts</h2>
+
+<input id="alert-msg"></input>
+<button type="button" onclick="sendAlert()">Alert</button>
+
+
+<!-- Nested Javascript Functions -->
+<script>
+  function sendAlert(){
+    window.alert(document.getElementById('alert-msg').value)
+  }
+</script>
+
+<!-- Import Javascript Functions -->
+<script src="myScript.js"></script>
+
+</body>
+</html>
