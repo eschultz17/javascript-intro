@@ -11,17 +11,17 @@ Repository to learn basic javascript functions
 
 ## Topics
 1. Changing HTML Content via Javascript
-  * innerHTML / text
-  * images
-  * css / style
-  * hide / show
-  * alerts
+    * innerHTML / text
+    * images
+    * css / style
+    * hide / show
+    * alerts
 1. Functions
-  * Inline Functions
-  * Nested Functions
-  * Imported Functions
+    * Inline Functions
+    * Nested Functions
+    * Imported Functions
 1. Dynamic Vs. Static
-  * Dynamic
-    * Data is constantly changing
-  * Static
-    * Data stays the same
+    * Dynamic
+        * Data is constantly changing
+    * Static
+        * Data stays the same
