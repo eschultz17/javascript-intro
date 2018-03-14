@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<header>
+  <p id="date"/>
+</header>
 <body>
 
 <!-- Change the text of the title -->
@@ -58,11 +61,25 @@
 <button type="button" onclick="sendAlert()">Alert</button>
 
 
+
+<hr>
+<!-- Location -->
+<h2> Location </h2>
+
+<p id="location"></p>
+
+<button onclick="getLocation()">Get Location</button>
+
+
+
 <!-- Nested Javascript Functions -->
 <script>
   function sendAlert(){
     window.alert(document.getElementById('alert-msg').value)
   }
+
+  var d = new Date();
+  document.getElementById("date").innerHTML = d.toDateString() + " " + d.getHours() + ":" + d.getMinutes();
 </script>
 
 <!-- Import Javascript Functions -->

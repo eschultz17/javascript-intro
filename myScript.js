@@ -24,3 +24,19 @@ function hide(){
 function show(){
   document.getElementById('content').style.display='block'
 }
+
+var x = document.getElementById("location");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    url = "https://www.google.com/maps/@" + position.coords.latitude + "," + position.coords.longitude + ",18z";
+    x.innerHTML = "Latitude: " + position.coords.latitude +
+      "<br>Longitude: " + position.coords.longitude + "<br><a href='" + url + "' target='_blank'>View Map</a>";
+}
