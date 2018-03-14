@@ -3,10 +3,10 @@ Repository to learn basic javascript functions
 
 ## Steps
 1. [Download Files](https://github.com/eschultz17/javascript-intro/archive/master.zip)
-  * Unzip File
-  * Open folder in IDE (Notepad)
+    * Unzip File
+    * Open folder in IDE (Notepad)
 1. View HTML file in browser
-  * URL path will start with `file:///`, then add on the location to the index.html file
+    * URL path will start with `file:///`, then add on the location to the index.html file
 
 
 ## Topics
