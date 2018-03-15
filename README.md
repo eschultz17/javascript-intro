@@ -1,4 +1,4 @@
-# javascript-intro
+# [javascript-intro](https://eschultz17.github.io/javascript-intro/)
 Repository to learn basic javascript functions
 
 ## Steps
