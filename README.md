@@ -16,12 +16,18 @@ Repository to learn basic javascript functions
     * css / style
     * hide / show
     * alerts
-1. Functions
-    * Inline Functions
-    * Nested Functions
-    * Imported Functions
-1. Dynamic Vs. Static
-    * Dynamic
-        * Data is constantly changing
-    * Static
-        * Data stays the same
+    * date
+    * location
+1. JavaScript
+    * Inline statements (HTML Event)
+    * Scripting statements (<script> element tag)
+    * Imported (external file, <script src={location}>)
+1. Dynamic vs. Static
+    * Static: Content stays the same
+    * Dynamic: Content is constantly changing
+1. HTML Document Object Model (DOM)
+    * Element object = HTML Element
+    * Document object = HTML file that is loaded in the browser
+    * Events = Allows JavaScript to register different event handlers on elements
+    * Console object = Provides access to the browser's debugging console
+    * Navigator object = Information about the browser
